@@ -507,7 +507,8 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
   
   <ul>
     <li> <code class="prettyprint lang-java"> @SomeAnnotation({a, b}) </code> (no space is used) </li>
-
+  </ul>
+   <ul>
     <li> <code class="prettyprint lang-java"> String\[]\[] x = \{{"foo"}}; </code> (no space is required
     between <code class="prettyprint lang-java"> \{{ </code>, by item 8 below) </li>
 	
