@@ -324,7 +324,7 @@ after it is opened, with no characters or line break in between
     void doNothingElse() {
     }
 </pre>
-<pre class="prettyprint lang-java badcode">  // This is not acceptable: No concise empty blocks in a multi-block statement
+<pre class="prettyprint lang-java badcode">    // This is not acceptable: No concise empty blocks in a multi-block statement
     try {
         doSomething();
     } catch (Exception e) {}
