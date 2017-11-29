@@ -525,10 +525,12 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
   <ul>
     <li> the pipe for a catch block that handles multiple exceptions:
     <code class="prettyprint lang-java"> catch (FooException \| BarException e) </code> </li>
-
+  </ul>
+  <ul>
     <li> the colon (<code class="prettyprint lang-java">:</code>) in an enhanced
     <code class="prettyprint lang-java">for</code> ("foreach") statement </li>
-
+  </ul>
+  <ul>
     <li> the arrow in a lambda expression:
     <code class="prettyprint lang-java">(String str) -&gt; str.length() </code> </li>
   </ul>
