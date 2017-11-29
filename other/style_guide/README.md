@@ -16,9 +16,9 @@
 
 <h2 id="s1-introduction">1 Introduction</h2>
 
-<p>This document is the set coding standards for JuJa Platform's source code in the Java Programming Language.</p>
+<p>This document is the set of coding standards for JuJa Platform's source code in the Java Programming Language.</p>
 
-<p>Like the <a href="http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html">Code Conventions for the Java TM Programming Language</a> it is important to programmers for a number of reasons:</p>
+<p>Like the <a href="http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html">Code Conventions for the Java TM Programming Language</a> it is important for a number of reasons:</p>
 <ol>
   <li>80% of the lifetime cost of a piece of software goes to maintenance.</li>
   <li>Hardly any software is maintained for its whole life by the original author.</li>
@@ -508,8 +508,7 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
   <ul>
     <li> <code class="prettyprint lang-java"> @SomeAnnotation({a, b}) </code> (no space is used) </li>
 
-    <li> <code class="prettyprint lang-java"> String[][] x = {{"foo"}}; </code> (no space is required
-    between <code class="prettyprint lang-java">{{</code>, by item 8 below) </li>
+    
 	
   </ul>
   </li>
