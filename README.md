@@ -3,15 +3,11 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>JuJa Platform Java Style Guide (DRAFT VERSION)</title>
-<link rel="stylesheet" type="text/css" href="javaguide.css">
-<script language="javascript" src="include/styleguide.js"></script>
-<link rel="shortcut icon" type="image/x-icon" href="https://www.google.com/favicon.ico" />
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </head>
 <body onload="initStyleGuide();">
 <div id="content">
-<h1>JuJa Platform Style Guide (based on <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a>)</h1>
+<h1>JuJa Platform Style Guide</br>
+(based on <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a>)</h1>
 <div class="vertical_toc" id="tocDiv"></div>
 
 <div class="main_body">
@@ -284,25 +280,25 @@ for <em>nonempty</em> blocks and block-like constructs:</p>
 <p>Examples:</p>
 
 <pre class="prettyprint lang-java">return () -&gt; {
-  while (condition()) {
-    method();
-  }
+    while (condition()) {
+        method();
+    }
 };
 
 return new MyClass() {
-  @Override public void method() {
-    if (condition()) {
-      try {
-        something();
-      } catch (ProblemException e) {
-        recover();
-      }
-    } else if (otherCondition()) {
-      somethingElse();
-    } else {
-      lastThing();
+    @Override public void method() {
+        if (condition()) {
+            try {
+                something();
+            } catch (ProblemException e) {
+                recover();
+            }
+        } else if (otherCondition()) {
+            somethingElse();
+        } else {
+            lastThing();
+        }
     }
-  }
 };
 </pre>
 
@@ -323,16 +319,16 @@ after it is opened, with no characters or line break in between
 <p>Examples:</p>
 
 <pre class="prettyprint lang-java">  // This is acceptable
-  void doNothing() {}
+    void doNothing() {}
 
-  // This is equally acceptable
-  void doNothingElse() {
-  }
+    // This is equally acceptable
+    void doNothingElse() {
+    }
 </pre>
 <pre class="prettyprint lang-java badcode">  // This is not acceptable: No concise empty blocks in a multi-block statement
-  try {
-    doSomething();
-  } catch (Exception e) {}
+    try {
+        doSomething();
+    } catch (Exception e) {}
 </pre>
 
 <h3 id="s4.2-block-indentation">4.2 Block indentation: <strong>+4 spaces (IntelliJ IDEA default settings)</strong></h3>
@@ -349,7 +345,7 @@ applies to both code and comments throughout the block. (See the example in Sect
 <a name="columnlimit"></a>
 <h3 id="s4.4-column-limit">4.4 Column limit: <strong>120 (IntelliJ IDEA default settings)</strong></h3>
 
-<p>Java code has a column limit of 100 characters. A "character" means any Unicode code point.
+<p>Java code has a column limit of <strong>120 (IntelliJ IDEA default)</strong> characters. A "character" means any Unicode code point.
 Except as noted below, any line that would exceed this limit must be line-wrapped, as explained in
 Section 4.5, <a href="#s4.5-line-wrapping">Line-wrapping</a>.
 </p>
@@ -508,12 +504,9 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
 
   <li>Before any open curly brace
   (<code class="prettyprint lang-java">{</code>), with two exceptions:
-  <ul>
-    <li><code class="prettyprint lang-java">@SomeAnnotation({a, b})</code> (no space is used)</li>
-
-    <li><code class="prettyprint lang-java">String[][] x = {{"foo"}};</code> (no space is required
-    between <code class="prettyprint lang-java">{{</code>, by item 8 below)</li>
-  </ul>
+  * <code class="prettyprint lang-java">@SomeAnnotation({a, b})</code> (no space is used)
+  * <code class="prettyprint lang-java">String[][] x = {{"foo"}};</code> (no space is required
+    between <code class="prettyprint lang-java">{{</code>, by item 8 below)
   </li>
 
   <li>On both sides of any binary or ternary operator. This also applies to the following
