@@ -6,8 +6,8 @@
 </head>
 <body onload="initStyleGuide();">
 <div id="content">
-<h1>JuJa Platform Style Guide</br>
-(based on <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a>)</h1>
+<h1>JuJa Platform Style Guide</br></h1>
+<h3>(based on <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a>)</h3>
 <div class="vertical_toc" id="tocDiv"></div>
 
 <div class="main_body">
@@ -189,7 +189,7 @@ statements.</p>
 
 <h4 id="s3.3.3-import-ordering-and-spacing">3.3.3 Ordering and spacing</h4>
 
-<p>Imports are ordered as follows(<strong>IntelliJ IDEA default settings</strong>):</p>
+<p>Imports are ordered as follows (<strong>IntelliJ IDEA default settings</strong>):</p>
 
 <ol>
   <li>All static imports in a single block.</li>
