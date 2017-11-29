@@ -6,9 +6,8 @@
 </head>
 <body>
 <div id="content">
-<h1>JuJa Platform</br></h1>
-<h2> Style Guide</br>
-(based on <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a>)</h2>
+<h1>JuJa Platform Style Guide</br></h1>
+<h3>(based on <a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a>)</h3>
 <div class="vertical_toc" id="tocDiv"></div>
 
 <div class="main_body">
