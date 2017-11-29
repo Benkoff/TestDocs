@@ -508,8 +508,8 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
   <ul>
     <li> <code class="prettyprint lang-java"> @SomeAnnotation({a, b}) </code> (no space is used) </li>
 
-    <li> <code class="prettyprint lang-java"> String\[\]\[\] x = {{"foo"}}; </code> (no space is required
-    between <code class="prettyprint lang-java"> \{\{ </code>, by item 8 below) </li>
+    <li> <code class="prettyprint lang-java"> String\[]\[] x = \{{"foo"}}; </code> (no space is required
+    between <code class="prettyprint lang-java"> \{{ </code>, by item 8 below) </li>
 	
   </ul>
   </li>
@@ -522,7 +522,7 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
     <code class="prettyprint lang-java">T extends Foo &amp; Bar; </code> </li>
 
     <li> the pipe for a catch block that handles multiple exceptions:
-    <code class="prettyprint lang-java"> catch (FooException | BarException e) </code> </li>
+    <code class="prettyprint lang-java"> catch (FooException \| BarException e) </code> </li>
 
     <li> the colon (<code class="prettyprint lang-java">:</code>) in an enhanced
     <code class="prettyprint lang-java">for</code> ("foreach") statement </li>
