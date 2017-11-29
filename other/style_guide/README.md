@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 </head>
-<body onload="initStyleGuide();">
+<body>
 <div id="content">
 <h1>JuJa Platform</br></h1>
 <h2> Style Guide</br>
