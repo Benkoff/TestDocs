@@ -317,7 +317,7 @@ after it is opened, with no characters or line break in between
 
 <p>Examples:</p>
 
-<pre class="prettyprint lang-java">  // This is acceptable
+<pre class="prettyprint lang-java">    // This is acceptable
     void doNothing() {}
 
     // This is equally acceptable
