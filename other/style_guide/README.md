@@ -151,12 +151,12 @@ programs are <strong>broken</strong> and they must be <strong>fixed</strong>.</p
 <h2 id="s3-source-file-structure">3 Source file structure</h2>
 
 <div>
-<p>A source file consists of, <strong>in order(Non-default IntelliJ IDEA settings! To be discussed!)</strong>:</p>
+<p>A source file consists of, <strong>in order (IntelliJ IDEA default)</strong>:</p>
 
 <ol>
-  <li>License or copyright information, if present</li>
   <li>Package statement</li>
   <li>Import statements</li>
+  <li>License or copyright information, if present</li>
   <li>Exactly one top-level class</li>
 </ol>
 </div>
