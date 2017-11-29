@@ -508,7 +508,7 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
   <ul>
     <li> <code class="prettyprint lang-java">@SomeAnnotation({a, b}) </code> (no space is used) </li>
 
-    <li> <code class="prettyprint lang-java">String[][] x = {{"foo"}}; </code> (no space is required
+    <li> <code class="prettyprint lang-java"> String[][] x = {{"foo"}}; </code> (no space is required
     between <code class="prettyprint lang-java">{{</code>, by item 8 below) </li>
 	
   </ul>
@@ -519,7 +519,7 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
   
   <ul>
     <li> the ampersand in a conjunctive type bound:
-    <code class="prettyprint lang-java">&lt;T extends Foo &amp; Bar&gt; </code> </li>
+    <code class="prettyprint lang-java">T extends Foo &amp; Bar; </code> </li>
 
     <li> the pipe for a catch block that handles multiple exceptions:
     <code class="prettyprint lang-java">catch (FooException | BarException e) </code> </li>
