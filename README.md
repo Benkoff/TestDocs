@@ -504,8 +504,7 @@ Javadoc, a single ASCII space also appears in the following places <strong>only<
 
   <li>Before any open curly brace
   (<code class="prettyprint lang-java">{</code>), with two exceptions:
-  * <code class="prettyprint lang-java">@SomeAnnotation({a, b})</code> (no space is used)
-  * <code class="prettyprint lang-java">String[][] x = {{"foo"}};</code> (no space is required
+  <code class="prettyprint lang-java">@SomeAnnotation({a, b})</code> (no space is used), <code class="prettyprint lang-java">String[][] x = {{"foo"}};</code> (no space is required
     between <code class="prettyprint lang-java">{{</code>, by item 8 below)
   </li>
 
