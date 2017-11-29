@@ -612,8 +612,8 @@ lines (usually just one) are also allowed. This is one possibility:
         }
     },
 
-    NO,
-    MAYBE
+      NO,
+      MAYBE
 }
 </pre>
 
@@ -657,7 +657,7 @@ list):</p>
 }                         1,
                           2,
 new int[] {               3,
-    0, 1,               }
+    0, 1,             }
     2, 3
 }                     new int[]
                           {0, 1, 2, 3}
