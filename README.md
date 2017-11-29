@@ -8,7 +8,7 @@
 * [[MFU] Notes of meetings](https://github.com/JujaLabs/docs/wiki/%5BMFU%5D-Notes-of-meetings)</br>
 * [Style Guide](https://github.com/JujaLabs/docs/other/style_guide)</br>
 * [Class Naming Convention](https://github.com/JujaLabs/docs/other/class_naming_convention)</br>
-* [IntelliJ IDEA Tips and Tricks](https://github.com/JujaLabs/docs/other/idea_tips)</br>
+* [IntelliJ IDEA Recommended Settings](https://github.com/JujaLabs/docs/other/idea_tips)</br>
 </br>
 
 ![JuJa Platform architecture image](https://github.com/JujaLabs/docs/blob/master/architecture/juja_platform.png "JuJa Platform")

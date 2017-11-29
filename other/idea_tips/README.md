@@ -1,8 +1,8 @@
 # JuJa Platform
 
-## IntelliJ IDEA Tips and Tricks (DRAFT VERSION)
+## IntelliJ IDEA Recommended Settings (DRAFT VERSION)
 
-* [IntelliJ IDEA Blog](https://blog.jetbrains.com/idea/category/tips-tricks/)</br>
+### [Tips and Tricks Official Blog](https://blog.jetbrains.com/idea/category/tips-tricks/)</br>
 </br>
 
 ### Recommended Settings
