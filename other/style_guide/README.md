@@ -606,14 +606,14 @@ operator precedence table memorized.</p>
 lines (usually just one) are also allowed. This is one possibility:
 
 </p><pre class="prettyprint lang-java">private enum Answer {
-  YES {
-    @Override public String toString() {
-      return "yes";
-    }
-  },
+    YES {
+        @Override public String toString() {
+            return "yes";
+        }
+    },
 
-  NO,
-  MAYBE
+    NO,
+    MAYBE
 }
 </pre>
 
@@ -653,12 +653,12 @@ construct." For example, the following are all valid (<strong>not</strong> an ex
 list):</p>
 
 <pre class="prettyprint lang-java">new int[] {           new int[] {
-  0, 1, 2, 3            0,
-}                       1,
-                        2,
-new int[] {             3,
-  0, 1,               }
-  2, 3
+    0, 1, 2, 3            0,
+}                         1,
+                          2,
+new int[] {               3,
+    0, 1,               }
+    2, 3
 }                     new int[]
                           {0, 1, 2, 3}
 </pre>
@@ -700,15 +700,15 @@ comment that communicates the idea of fall-through is sufficient (typically
 the last statement group of the switch block. Example:</p>
 
 <pre class="prettyprint lang-java">switch (input) {
-  case 1:
-  case 2:
-    prepareOneOrTwo();
-    // fall through
-  case 3:
-    handleOneTwoOrThree();
-    break;
-  default:
-    handleLargeNumber(input);
+    case 1:
+    case 2:
+        prepareOneOrTwo();
+        // fall through
+    case 3:
+        handleOneTwoOrThree();
+        break;
+    default:
+        handleLargeNumber(input);
 }
 </pre>
 
@@ -1037,10 +1037,10 @@ exception. (Typical responses are to log it, or if it is considered "impossible"
 justified is explained in a comment.</p>
 
 <pre class="prettyprint lang-java">try {
-  int i = Integer.parseInt(response);
-  return handleNumericResponse(i);
+    int i = Integer.parseInt(response);
+    return handleNumericResponse(i);
 } catch (NumberFormatException ok) {
-  // it's not numeric; that's fine, just continue
+    // it's not numeric; that's fine, just continue
 }
 return handleTextResponse(response);
 </pre>
@@ -1051,8 +1051,8 @@ following is a very common idiom for ensuring that the code under test <em>does<
 exception of the expected type, so a comment is unnecessary here.</p>
 
 <pre class="prettyprint lang-java">try {
-  emptyStack.pop();
-  fail();
+    emptyStack.pop();
+    fail();
 } catch (NoSuchElementException expected) {
 }
 </pre>
