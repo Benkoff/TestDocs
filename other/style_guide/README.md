@@ -235,13 +235,6 @@ ordering.</p>
 <p>When a class has multiple constructors, or multiple methods with the same name, these appear
 sequentially, with no other code in between (not even private members).</p>
 
-<a name="author"></a>
-<h4 id="s3.4.2.2-author-tag-before-annotation">3.4.2.1 @Author tag</h4>
-
-<p>Tag @Author is used to mark the name of the person who created the class or the names of major 
-contributors.</p>
-<h1>...do we need @Author tag?</h1>
-
 <h2 id="s4-formatting">4 Formatting</h2>
 
 <p class="terminology"><strong>Terminology Note:</strong> <em>block-like construct</em> refers to
@@ -1191,6 +1184,36 @@ class or member, that comment is written as Javadoc instead (using <code>/**</co
 <p>Non-required Javadoc is not strictly required to follow the formatting rules of Sections
 7.1.2, 7.1.3, and 7.2, though it is of course recommended.</p>
 
+<a name="authors"></a>
+<h4 id="s7.3.5-author-tag-before-annotation">7.3.5 Code authors and major contributors</h4>
+
+<p>To mark the name of the person who created the class or the names of major contributors Javadoc 
+@Author tag or equivalent constuctions are used. Such text should be enclosed as a multi-line comment and placed 
+before the class annotation with no blank lines between.</p>
+
+<p>Examples:</p>
+
+<pre class="prettyprint lang-java">...
+import java.util.ArrayList;
+
+/**
+ * @Author Basil Pupkin
+ * @Author Petro Cherezzabornoguzaderischenko
+ * @Author Vasissuarii Nunifigasebefamilia
+ */
+public class MyClass {
+...
+
+...
+import java.util.List;
+
+/**
+ * Created by Thomas A. Anderson on March 31, 1999
+ */
+@SpringBootApplication
+public class Gamification {
+...
+</pre>
  
 
 </div> 
