@@ -16,7 +16,7 @@
 
 Before you send your pull request please be sure that your code is properly formatted (Ctrl+Alt+L) as well as imports optimized (Ctrl+Alt+O). 
 
-Running analyzers (Analyze - Inspect Code so on) is also highly recommended.
+Running analyzers (Analyze → Inspect Code) is also highly recommended.
 
 ### Some useful keyboard shortcuts:</br>
 Alt+Insert generate getters/setters etc.</br>
