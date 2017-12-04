@@ -1187,9 +1187,9 @@ class or member, that comment is written as Javadoc instead (using <code>/**</co
 <a name="authors"></a>
 <h4 id="s7.3.5-author-tag-before-annotation">7.3.5 Code authors and major contributors</h4>
 
-<p>To mark the name of the person, who created the class, or the names of major contributors Javadoc 
-@Author tag or equivalent constuctions are used. Such text should be enclosed as a Javadoc multi-line 
-comment and placed before the class declaration (or annotation, if present), without empty lines 
+<p>To mark the names of the person who created the class or major contributors Javadoc 
+@Author tag or equivalent constuctions are used. The text enclosed as a Javadoc multi-line 
+comment has to be placed before the class declaration (or annotation, if present), without empty lines 
 between.</p>
 
 <p>Examples:</p>
