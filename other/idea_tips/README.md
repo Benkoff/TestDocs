@@ -18,8 +18,7 @@ Before you send your pull request please be sure that your code is properly form
 
 Running analyzers (Analyze - Inspect Code so on) is also highly recommended.
 
-### Some useful keyboard shortcuts:
-</br>
+### Some useful keyboard shortcuts:</br>
 Alt+Insert generate getters/setters etc.</br>
 </br>
 Ctrl+Alt+L format selection</br>
@@ -38,6 +37,5 @@ Ctrl+/ comment out lines</br>
 Ctrl+F10 run (main)</br>
 </br>
 Shift+F6 rename all occurencies</br>
-</br>
 
 #### [more shortcuts](https://www.jetbrains.com/help/idea/keyboard-shortcuts-you-cannot-miss.html)</br>
