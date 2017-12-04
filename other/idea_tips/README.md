@@ -39,4 +39,5 @@ Ctrl+F10 run (main)</br>
 </br>
 Shift+F6 rename all occurencies</br>
 </br>
+
 #### [more shortcuts](https://www.jetbrains.com/help/idea/keyboard-shortcuts-you-cannot-miss.html)</br>
