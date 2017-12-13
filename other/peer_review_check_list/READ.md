@@ -1,43 +1,37 @@
 # Peer Review Check List 
 ## DRAFT Version
 
-## 1. Функциональность
-*простота, переиспользование и возможность поддержки*
+## 1. Functionality -- Функциональность
+*simple, reusable and maintainable manner -- простота, переиспользование и возможность поддержки*
 
-<p> ![picture alt](https://lostechies.com/derickbailey/files/2011/03/SOLID_6EC97F9C.jpg)
-![picture alt](https://lostechies.com/derickbailey/files/2011/03/SingleResponsibilityPrinciple2_71060858.jpg) 
-![picture alt](https://lostechies.com/derickbailey/files/2011/03/OpenClosedPrinciple2_2C596E17.jpg)
-![picture alt](https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg)
-![picture alt](https://lostechies.com/derickbailey/files/2011/03/InterfaceSegregationPrinciple_60216468.jpg)
-![picture alt](https://lostechies.com/derickbailey/files/2011/03/DependencyInversionPrinciple_0278F9E2.jpg)
-</p>
-
-**SOLID design principle -- объектно-ориентированный дизайн**
-- [ ] Single Responsibility Principle -- класс создан для выполнения единственной задачи
-- [ ] Open/closed principle -- классы, модули, функции могут быть расширены без изменения их кода
-- [ ] Liskov substitution principle -- объекты могут быть заменены наследниками без изменения кода
-- [ ] Interface segregation principle -- используются несколько специализированных интерфейсов, а не один универсальный
-- [ ] Dependency inversion principle -- зависимости построены на абстракциях и не зависят от деталей
-
-**Functionality is implemented in a simple, maintainable, and reusable manner -- Функциональность реализована простым, понятным и легко поддерживаемым способом**
-- DRY - Don’t Repeat Yourself -- код не содержит повторов и дублирующих фрагментов
-- KISS - Keep It Short and Simple -- решения простые и короткие
-
-**OO concepts — A PIE**
-- Abstraction
-- Polymorphism
-- Inheritance
-- Encapsulation 
-These principles and concepts are all about accomplishing “Low coupling” and “High cohesion“.
-
-**Apply functional programming paradigm where it makes more sense -- Функциональное программирование используется там, где это имеет смысл**
+**SOLID design principle -- принципы проектирования архитектуры**
+- Single Responsibility Principle -- класс создан для выполнения единственной задачи и не пытается решить одновременно несколько различных;
+- Open/closed principle -- классы, модули, функции могут быть расширены без изменения их кода;
+- Liskov substitution principle -- используемые классом и его методами объекты могут быть заменены их подтипами (например, метод возвращает List\<Integer>, который можно заменить подтипом - ArrayList\<Integer>);
+- Interface segregation principle -- использованию общего универсального интерфейса отдается предпочтение отдельным специализированным;
+- Dependency inversion principle -- зависимости построены на абстракциях и не зависят от деталей.
 
 
-Clean code
-Checklist	Description/example
-Use of descriptive and meaningful variable, method and class names as opposed to relying too much on comments.	E.g. calculateGst(BigDecimal amount), BalanceLoader.java, etc.
+**DRY - Don’t Repeat Yourself -- код не содержит повторов и дублирующих фрагментов**
+<br>
+**KISS - Keep It Short and Simple -- решения простые и короткие**
+
+**OO concepts -- Принципы ООП**
+- Abstraction -- отделение деталей для получения возможности сосредоточиться на главных особенностях объекта;
+- Polymorphism -- использование общего интерфейса для обработки данных разных типов;
+- Inheritance -- образование новых классов на основе использования(наследования) существующих;
+- Encapsulation -- объект включает данные и методы их обработки, доступ к которым осуществляется не напрямую, а через заданный интерфейс (открытые поля и методы).
+
+These principles and concepts are all about accomplishing “Low coupling” and “High cohesion“ --  Соблюдение перечисленных мер направлено на снижение взаимной зависимости и повышение качества связей между программными модулями.
+
+**Apply functional programming paradigm where it makes more sense -- Функциональное программирование используется там, где это имеет смысл.**
+
+## 2. Clean code -- Чистый код
+Use of descriptive and meaningful variable, method and class names as opposed to relying too much on comments.
+Использование описательных и имеющих значение имен для переменных, методов и классов в противовес чрезмерной зависимости от комментариев.
+*E.g. calculateGst(BigDecimal amount), BalanceLoader.java, etc.
 Bad: List list;
-Good: List<String> users;
+Good: List<String> users;*
 
 Class and functions should be small and focus on doing one thing. No duplication of code.	E.g. CustomerDao.java for data access logic only, Customer.java for domain object, CustomerService.java for business logic, and CustomerValidator.java for validating input fields, etc.
 Similarly, separate functions like processSalary(String customerCode) will invoke other sub functions with meaningful names like
@@ -103,3 +97,12 @@ Don’t have ant System.out.println(…..)
 Ensure that the unit tests are written properly.	Don’t write unit tests for the sake of writing one.
 Presence of hard coded config values.	Externalize configuration data in a .properties file. Sensitive information like password must be encrypted.
 Presence and implementation of non functional requirements like archiving, auditing, and purging data and application monitoring where required.	It is easy to ignore these
+
+
+<p> ![picture alt](https://lostechies.com/derickbailey/files/2011/03/SOLID_6EC97F9C.jpg)
+![picture alt](https://lostechies.com/derickbailey/files/2011/03/SingleResponsibilityPrinciple2_71060858.jpg) 
+![picture alt](https://lostechies.com/derickbailey/files/2011/03/OpenClosedPrinciple2_2C596E17.jpg)
+![picture alt](https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg)
+![picture alt](https://lostechies.com/derickbailey/files/2011/03/InterfaceSegregationPrinciple_60216468.jpg)
+![picture alt](https://lostechies.com/derickbailey/files/2011/03/DependencyInversionPrinciple_0278F9E2.jpg)
+</p>
