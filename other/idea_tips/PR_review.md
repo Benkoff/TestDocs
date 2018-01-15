@@ -9,7 +9,7 @@ Control Panel -- System -- Advanced system settings -- Advanced -- Environment V
 ```
 git fetch upstream pull/73/head:pr-73
 ```
-* upstream - должен быть прописан (прописывается автоматиччески при импорте проекта) в файле конфигурации .git\config примерно так: 
+* upstream - должен быть прописан (прописывается автоматически при импорте проекта) в файле конфигурации .git\config примерно так: 
 ```
 [remote "upstream"]
 	url = https://github.com/JujaLabs/juja-platform.git
@@ -22,6 +22,6 @@ git fetch upstream pull/73/head:pr-73
 выбирам в разделе Local Branches созданную нами локальную ветку и дальше **checkout** для переключения в нее или **compare**, 
 чтобы сравнить с оригинальным кодом предложенные изменения.
 
-4. Удобно читаем код, запускаем, если нужно, пишем свои комментаприи и замечания в ревью Pull Request.
+4. Удобно читаем код, запускаем, если нужно, параллельно пишем свои комментарии и замечания, как обычно в окошке соответствующего Pull Request на гитхабе.
 
 Идея, как загрузить код из Pull Request, взята тут: https://blog.scottlowe.org/2015/09/04/checking-out-github-pull-requests-locally/
